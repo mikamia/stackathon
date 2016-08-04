@@ -1,0 +1,73 @@
+$one: #220800;
+$two: #94516a;
+$three: #d09c97;
+$four: #e7d8d2;
+$five: #f4f3f1;
+
+.date {
+  font-size: 100%;
+  text-align: center;
+  line-height:50%;
+}
+
+.big {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 2.5em;
+}
+.pure-g > div {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .l-box {
+        padding: 1em 4em;
+    }
+.greeting {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.todo {
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  padding: 4%;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.listGood {
+  border-bottom: 1px solid #c0c0c0;
+  margin: 0 15px 20px 15px;
+  line-height: 10px;
+}
+
+.check {
+  float:right;
+  font-size: 22px;
+}
+
+.one, .five{
+  background-color: $one;
+  color:$one;
+}
+.two, .six {
+  background-color: $two;
+  color:$two;
+
+}
+.three, .seven {
+  background-color: $three;
+  color:$three;
+
+}
+.four, .eight {
+  background-color: $four;
+  color:$four;
+
+}
+

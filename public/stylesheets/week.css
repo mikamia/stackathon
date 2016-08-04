@@ -1,0 +1,22 @@
+.todo week {
+  width: 92%;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  padding: 2% 2% 2% 6%;
+  margin: 2% auto;
+  text-align: left; }
+
+.addButton {
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 19px;
+  border-radius: 100%;
+  border: 1px solid #c0c0c0;
+  outline: none;
+  margin: 1% auto; }
+
+.addButton:hover {
+  background-color: #c0c0c0; }
