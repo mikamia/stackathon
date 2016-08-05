@@ -1,22 +1,32 @@
-.todo week {
+.todoWeek {
   width: 92%;
   border: 1px solid #c0c0c0;
   border-radius: 5px;
   padding: 2% 2% 2% 6%;
   margin: 2% auto;
-  text-align: left; }
+  text-align: left;
+  background-color: #fff; }
+
+.week {
+  border: 1px solid #c0c0c0; }
+
+.pure-g2 > div {
+  width: 27.33333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1em; }
+
+.l-box2 {
+  padding: 1em 2em; }
+
+.bottomButton {
+  margin: 1em auto 0em auto; }
 
 .addButton {
-  background-color: #fff;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 17px;
-  line-height: 19px;
-  border-radius: 100%;
-  border: 1px solid #c0c0c0;
-  outline: none;
-  margin: 1% auto; }
+  font-size: 22px;
+  line-height: 22px; }
 
 .addButton:hover {
-  background-color: #c0c0c0; }
+  color: #c0c0c0; }

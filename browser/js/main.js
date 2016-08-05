@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('today', ['ui.router']);
+var app = angular.module('today', ['ui.router','ngDragDrop']);
 
 app.run(function ($rootScope) {
   $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {

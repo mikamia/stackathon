@@ -12,9 +12,13 @@ var browserPath = path.join(rootPath, 'browser');
 
 var nodeModulesPath = path.join(rootPath, 'node_modules');
 
+var bowerComponentsPath = path.join(rootPath, 'bower_components');
+
 router.use(express.static(publicPath));
 
 router.use(express.static(browserPath));
+
+router.use(express.static(bowerComponentsPath));
 
 router.use(express.static(nodeModulesPath));
 

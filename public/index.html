@@ -9,8 +9,12 @@
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
   <script src="/angular/angular.js" defer></script>
   <script src="/angular-ui-router/release/angular-ui-router.js" defer></script>
+  <script src="/angular-dragdrop/src/angular-dragdrop.min.js" defer></script>
+
   <script src="/js/main.js" defer></script>
   <script src="/js/navbar/navbar.directive.js" defer></script>
   <script src="/js/home/home.js" defer></script>
@@ -27,7 +31,7 @@
         <li class="center"><a ng-cloak href="{{item.stateTo}}">View {{item.label}}</a></li>
     </ul>
 </div>
-<navbar>
+</navbar>
   <ui-view></ui-view>
   <footer></footer>
 
