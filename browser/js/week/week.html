@@ -1,13 +1,13 @@
 <div class="pure-g2">
-    <div ng-cloak ng-repeat="day in week" class="pure-u-1 pure-u-md-1-3 l-box2 week">
+    <div hmm day="day" ng-model="day" ng-cloak ng-repeat="day in week" class="pure-u-1 pure-u-md-1-3 l-box2 week">
         <h3>{{day.weekday}}</h3>
 
-          <div todo="todo" contenteditable ng-model="todo.title" ng-repeat="todo in day.todos" class="todoWeek">
+          <div class="todoWeek" todo="todo" contenteditable ng-model="todo.title" ng-repeat="todo in day.todos">
               {{todo.title || ""}}
           </div>
 
 
-        <div ng-show="addButton" class="pure-u-1 bottomButton">
+        <div class="pure-u-1 bottomButton">
             <i ng-click="add($index)" class="icon ion-ios-plus-outline addButton"></i>
         </div>
     </div>

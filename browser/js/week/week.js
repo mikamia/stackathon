@@ -42,3 +42,23 @@ app.factory('WeekFactory', function($log, $http){
 
   return weekObj;
 })
+
+app.directive("hmm", function(DayFactory) {
+  return {
+    restrict: "A",
+    require: "ngModel",
+    scope: {
+        day: '='
+    },
+    link: function(scope, element, attrs, ngModel) {
+
+
+      scope.add = function(){
+        console.log(scope.day);
+      }
+
+    }
+
+  };
+});
+
