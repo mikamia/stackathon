@@ -19,6 +19,10 @@ app.controller('WeekCtrl', function($scope, $log, DayFactory, week){
 
     $scope.week = week;
 
+    // scope.add = function(){
+    //     console.log(scope.day);
+    //   }
+
     // $scope.add = function(index) {
     //     console.log('addnew');
     //     DayFactory.createNew($scope.week[index])

@@ -56,55 +56,55 @@ var seedDays = function(){
         reflect: ['ate pie', 'made tea'],
         todos: [
             {title: 'do laundry'},
-            {title: 'smoke weed'},
-            {title: 'buy some jaire'}
+            {title: 'go to wholefoods'},
+            {title: 'print fedex'}
         ]
     }, {
         weekday: 'Tuesday',
         reflect: ['watched pie', 'read tea'],
         todos: [
             {title: 'do yoga'},
-            {title: 'smoke coke'},
-            {title: 'buy some jaire'}
+            {title: 'clean house'},
+            {title: 'water plants'}
         ]
     }, {
         weekday: 'Wednesday',
-        reflect: ['saw pie', 'ran tea'],
+        reflect: ['saw good movie', 'ran'],
         todos: [
             {title: 'do dishes'},
-            {title: 'smoke cigs'},
-            {title: 'buy some jaire'}
+            {title: 'go shopping'},
+            {title: 'buy snacks'}
         ]
     }, {
         weekday: 'Thursday',
         reflect: ['cried pie', 'threw tea'],
         todos: [
             {title: 'do homework'},
-            {title: 'smoke weed'},
-            {title: 'buy some jaire'}
+            {title: 'clean house'},
+            {title: 'do laundry'}
         ]
     }, {
         weekday: 'Friday',
-        reflect: ['threw pie', 'sung tea'],
+        reflect: ['bought pie', 'drank tea'],
         todos: [
-            {title: 'do pie'},
-            {title: 'smoke coke'},
-            {title: 'buy some jaire'}
+            {title: 'do yoga'},
+            {title: 'stretches'},
+            {title: 'buy groceries'}
         ]
     }, {
         weekday: 'Saturday',
         reflect: ['named pie', 'birthed tea'],
         todos: [
-            {title: 'do cat'},
-            {title: 'smoke cigs'},
-            {title: 'buy some jaire'}
+            {title: 'practice piano'},
+            {title: 'take a nap'},
+            {title: 'clean shower'}
         ]
     }, {
         weekday: 'Sunday',
         reflect: ['carried pie', 'taklked with tea'],
         todos: [
             {title: 'do poetry'},
-            {title: 'smoke weed'},
+            {title: 'practice cello'},
             {title: 'buy some jaire'}
         ]
     }

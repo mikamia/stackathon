@@ -1,8 +1,8 @@
 <div class="pure-g2">
     <div ng-cloak ng-repeat="day in week" class="pure-u-1 pure-u-md-1-3 l-box2 week">
         <h3>{{day.weekday}}</h3>
-
           <div todo="todo" contenteditable ng-model="todo.title" ng-repeat="todo in day.todos" class="todoWeek">
+          <div data-drag="true" jqyoui-draggable class="todoWeek" todo="todo" contenteditable ng-model="todo.title" ng-repeat="todo in day.todos">
               {{todo.title || ""}}
           </div>
 
